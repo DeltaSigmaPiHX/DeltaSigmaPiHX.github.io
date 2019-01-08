@@ -42,4 +42,7 @@
      color: white;
  }
  
- 
+ html *
+{
+   font-family: 'Tw Cen MT';
+}
