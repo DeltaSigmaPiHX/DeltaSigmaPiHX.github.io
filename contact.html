@@ -65,7 +65,6 @@
                         <h1 class="text-uppercase" id="contactHead">
                             <strong>Contact Us</strong>
                         </h1>
-                        <hr>
                     </div>
                     <div class="col-lg-8 mx-auto">
                         <p class="text-faded mb-5" id="contactHead">Have any Questions? Get in touch</p>
@@ -74,86 +73,101 @@
             </div>
         </header>
 
-        <section class="contact" id="contact">
-            <div class="container">
+        <section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
                 <div class="row">
-                    <!--Text-->
-                    <div class="text col-md-5">
-                        <header>
-                            <h1 class="small-heading" style="font-family: 'Tw Cen MT';color:white">Contact Us</h1>
-                        </header>
-                        <p class='lead' style="font-family: 'Tw Cen MT';color:white">Thank you for your interest. For general inquiries, please use the following form or email</p>
-                        <!--Map-->
-                        <div class="col-lg-2">
-                            <!--Google map-->
-                            <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.466057688941!2d-117.82292968482851!3d34.057565180604435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c32ea5e3dc4361%3A0x904ae4ed22c91eeb!2sCal+Poly+Pomona!5e0!3m2!1sen!2sus!4v1546936140265" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                            </div>
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
                         </div>
                     </div>
-                    <!--End of Text-->
+                    <!--Grid column-->
 
-                    <!--Form-->
-                    <div class='form col-md-7'>
-                        <form id='contact-form' action='#' method='post' novalidate='novalidate'>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_name" style="font-family: 'Tw Cen MT'">Firstname *</label>
-                                        <input id="form_name" type="text" name="name" style="font-family: 'Tw Cen MT'" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_lastname">Lastname *</label>
-                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="form_email">Email *</label>
-                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="form_email">Subject</label>
-                                        <input id="form_subject" type="text" name="subject" class="form-control" placeholder="Please enter the subject of the matter*" required="required" data-error="Valid subject is needed">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="form_message">Message *</label>
-                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="submit" class="btn btn-dark btn-send" value="Send message">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <p class="text-muted">
-                                        <strong>*</strong> These fields are required.</p>
-                                </div>
-                            </div>
-                        </form>
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+                <!--Grid row-->
 
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>San Francisco, CA 94126, USA</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+ 01 234 567 89</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@mdbootstrap.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
 
        
         <!-- Footer -->
@@ -177,6 +191,11 @@
                     <li class="list-inline-item">
                         <a class="btn-floating btn-li mx-1" id='iconLink'>
                             <i class="fab fa-linkedin-in circle-icon" id='icon-background'> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-ml mx-1" href="mailto:#" id='iconLink'>
+                            <i class="fas fa-envelope circle-icon" id='icon-background'> </i>
                         </a>
                     </li>
                 </ul>
