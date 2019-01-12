@@ -74,7 +74,7 @@ img::-moz-selection{
     font-weight:700;
     text-transform:uppercase;
     color:black;
-    font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
+    /*font-family:'Open Sans','Helvetica Neue',Arial,sans-serif*/
 }
 #mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
     color:#f05f40
@@ -404,7 +404,7 @@ header.masthead p{
 
  html *
 {
-   font-family: 'Tw Cen MT';
+   font-family: 'trebuchet MS';
 }
 
 #ourpurposehead{

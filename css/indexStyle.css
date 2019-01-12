@@ -369,13 +369,6 @@ header.masthead p{
     background-color:#212529
 }
 
-@font-face 
-{
-    font-family: 'Tw Cen MT';
-    src: url('tw.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 #icon-background{
     color: black;
     background: white;
@@ -397,12 +390,10 @@ header.masthead p{
 }
 #pillars{
     color: white;
-    font-family: 'Tw Cen MT';
 }
 
 #fourPillarsHeading{
     color: white;
-    font-family: 'Tw Cen MT';
     font-weight: bold;
     letter-spacing: 0.5ex;
 }
@@ -419,17 +410,13 @@ header.masthead p{
 }
 
 #whoweare{
-    font-family: 'Tw Cen MT';
+    font-family: 'trebuchet MS';
     font-weight: bold;
     letter-spacing: 0.5ex;
 }
 
-#whowearepara{
-    font-family: 'Tw Cen MT';
-}
-
 #ourpurposehead{
-    font-family: 'Tw Cen MT';
+    font-family: trebuchet MS;
     font-weight: bold;
     letter-spacing: 0.5ex;
 }
@@ -440,24 +427,7 @@ header.masthead p{
     font-weight: bold;
     letter-spacing: 0.5ex;
 }
-
-#schoolHead{
-    font-family: 'Tw Cen MT';
-}
-
-#buttonHead{
-    font-family: 'Tw Cen MT';
-}
-
-#outpurposepara{
-    font-family: 'Tw Cen MT';
-}
-
 html *
 {
-    font-family: 'Tw Cen MT';
-}
-
-#navDSP{
-    font-family: 'Tw Cen MT';
+    font-family: 'trebuchet MS';
 }

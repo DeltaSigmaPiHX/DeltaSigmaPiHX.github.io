@@ -283,7 +283,8 @@ header.masthead p{
     margin:0 auto;
     padding:25px;
     text-align:center;
-    background-color:#fff
+    color: white;
+    background-color:#343a40
 }
 #portfolio .portfolio-item .portfolio-caption h4{
     margin:0;
@@ -399,5 +400,5 @@ header.masthead p{
 
 html *
 {
-    font-family: 'Tw Cen MT';
+    font-family: 'trebuchet MS';
 }
