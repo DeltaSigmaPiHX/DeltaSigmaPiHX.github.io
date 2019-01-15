@@ -58,23 +58,51 @@
     delay: 800,
     scale: 0
   });
+  sr.reveal('.sr-time-1', {
+      delay: 200,
+      origin: 'left',
+      distance: '400px'
+  });
+  sr.reveal('.sr-time-2', {
+      delay: 300,
+      origin: 'right',
+      distance: '400px'
+  });
+  sr.reveal('.sr-time-3', {
+      delay: 400,
+      origin: 'left',
+      distance: '400px'
+  });
+  sr.reveal('.sr-time-4', {
+      delay: 500,
+      origin: 'right',
+      distance: '400px'
+  });
+  sr.reveal('.sr-time-5', {
+      delay: 600,
+      origin: 'left',
+      distance: '400px'
+  });
   sr.reveal('.sr-text-1', {
       delay: 100,
       distance: '400px',
       origin: 'right',
-      scale: 0.8
+      scale: 0.8,
+    mobile: false
   });
   sr.reveal('.sr-text-2', {
     delay: 300,
     distance: '400px',
     origin: 'right',
-    scale: 0.8
+    scale: 0.8,
+    mobile: false
   });
   sr.reveal('.sr-hr', {
     delay: 200,
     distance: '400px',
     origin: 'left',
-    scale: 0.8
+    scale: 0.8,
+    mobile: false
   });
   sr.reveal('.sr-text-4', {
     delay: 200,
@@ -86,7 +114,8 @@
     delay: 200,
     distance: '15px',
     origin: 'bottom',
-    scale: 0.8
+    scale: 0.8,
+    mobile: false
   });
   sr.reveal('.sr-contact-1', {
     delay: 200,
