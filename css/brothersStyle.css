@@ -257,7 +257,7 @@ header.masthead p{
     -webkit-transition:all ease .5s;
     transition:all ease .5s;
     opacity:0;
-    background:rgba(254,209,54,.9)
+    background:#712CA7
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{
     opacity:1
