@@ -225,7 +225,6 @@ header.masthead p{
 .btn{
     font-weight:700;
     text-transform:uppercase;
-    border:none;
     border-radius:300px;
     font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
 }
@@ -436,4 +435,9 @@ html *
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#buttonHead:hover{
+    background-color: white;
+    color: black;
 }

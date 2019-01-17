@@ -260,7 +260,7 @@ header.masthead p{
     background:#712CA7
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{
-    opacity:1
+    opacity:.8
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{
     font-size:20px;

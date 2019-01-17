@@ -431,3 +431,13 @@ html *
 {
     font-family: 'trebuchet MS';
 }
+
+#buttonHead:hover{
+    background-color: white;
+    color: black;
+}
+
+#buttonInv:hover{
+    background-color: #212529;
+    color: white;
+}
