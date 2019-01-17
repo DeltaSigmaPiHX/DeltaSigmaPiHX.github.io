@@ -371,40 +371,40 @@ header.masthead p{
     background-color:#212529
 }
 #icon-background{
-     color: black;
-     background: white;
-     width: 30px;
-     height: 30px;
-     border-radius: 50%;
-     text-align: center;
-     vertical-align: middle;
-     padding: 7px;
- }
- 
- #footer-copyright{
-     color: white;
-     background-color: black;
- }
- 
- #iconLink :hover{
-     background: lightgray;
- }
- #pillars{
-     color: white;
- }
- 
- #fourPillarsHeading{
-     color: white;
- }
- 
- #aboutHead{
+    color: black;
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px;
+}
+
+#footer-copyright{
+    color: white;
+    background-color: black;
+}
+
+#iconLink :hover{
+    background: lightgray;
+}
+#pillars{
+    color: white;
+}
+
+#fourPillarsHeading{
+    color: white;
+}
+
+#aboutHead{
     font-weight: bold;
     letter-spacing: 0.5ex;
 }
 
- html *
+html *
 {
-   font-family: 'trebuchet MS';
+    font-family: 'trebuchet MS';
 }
 
 #ourpurposehead{
@@ -418,9 +418,9 @@ header.masthead p{
 
 #aboutPicture{
     background-image: url(../img/Pomona@2x.jpg);
-    
+
     min-height: 500px;
-    
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -429,9 +429,9 @@ header.masthead p{
 
 #dspPicture{
     background-image: url(../img/DSP@2x.jpg);
-    
+
     min-height: 500px;
-    
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
