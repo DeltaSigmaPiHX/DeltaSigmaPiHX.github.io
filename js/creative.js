@@ -70,27 +70,32 @@
     sr.reveal('.sr-time-1', {
         delay: 200,
         origin: 'left',
-        distance: '400px'
+        distance: '400px',
+        mobile: false
     });
     sr.reveal('.sr-time-2', {
         delay: 300,
         origin: 'right',
-        distance: '400px'
+        distance: '400px',
+        mobile: false
     });
     sr.reveal('.sr-time-3', {
         delay: 400,
         origin: 'left',
-        distance: '400px'
+        distance: '400px',
+        mobile: false
     });
     sr.reveal('.sr-time-4', {
         delay: 500,
         origin: 'right',
-        distance: '400px'
+        distance: '400px',
+        mobile: false
     });
     sr.reveal('.sr-time-5', {
         delay: 600,
         origin: 'left',
-        distance: '400px'
+        distance: '400px',
+        mobile: false
     });
     sr.reveal('.sr-text-1', {
         delay: 100,
