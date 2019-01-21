@@ -441,3 +441,14 @@ html *
     background-color: white;
     color: black;
 }
+
+#presidentPicture{
+    background-image: url(../img/Raul2.jpg);
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
