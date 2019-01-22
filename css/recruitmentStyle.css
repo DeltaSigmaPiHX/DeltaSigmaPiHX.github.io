@@ -432,241 +432,241 @@ header.masthead p{
 }
 
 section#timeline article {
-  margin: 0 0 20px 0;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+    margin: 0 0 20px 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 section#timeline article:after {
-  content: '';
-  display: block;
-  clear: both;
+    content: '';
+    display: block;
+    clear: both;
 }
 section#timeline article div.inner {
-  width: 25%;
-  float: left;
-  margin: 5px 0 0 0;
-  border-radius: 6px;
+    width: 25%;
+    float: left;
+    margin: 5px 0 0 0;
+    border-radius: 6px;
 }
 section#timeline article div.inner span.date {
-  display: block;
-  width: 85px;
-  height: 85px;
-  padding: 5px 0;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  margin: 0 0 0 -40px;
-  border-radius: 100%;
-  font-size: 12px;
-  font-weight: 900;
-  text-transform: uppercase;
-  background: #25303B;
-  color: white;
-  border: 2px solid white;
-  box-shadow: 0 0 0 7px #25303B;
+    display: block;
+    width: 85px;
+    height: 85px;
+    padding: 5px 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -40px;
+    border-radius: 100%;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: #25303B;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 0 7px #25303B;
 }
 section#timeline article div.inner span.date span {
-  display: block;
-  text-align: center;
+    display: block;
+    text-align: center;
 }
 section#timeline article div.inner span.date span.day {
-  font-size: 10px;
+    font-size: 10px;
 }
 section#timeline article div.inner span.date span.month {
-  font-size: 18px;
+    font-size: 18px;
 }
 section#timeline article div.inner span.date span.year {
-  font-size: 10px;
+    font-size: 10px;
 }
 section#timeline article div.inner h2 {
-  padding: 15px;
-  margin: 0;
-  color: #fff;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  border-radius: 6px 6px 0 0;
-  position: relative;
+    padding: 15px;
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
 }
 section#timeline article div.inner h2:after {
-  content: '';
-  position: absolute;
-  top: 20px;
-  right: -5px;
-  	width: 10px; 
-	  height: 10px;
-  -webkit-transform: rotate(-45deg);
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: -5px;
+    width: 10px; 
+    height: 10px;
+    -webkit-transform: rotate(-45deg);
 }
 section#timeline article div.inner p {
-  padding: 15px;
-  margin: 0;
-  font-size: 14px;
-  background: #25303B;
-  color: white;
-  border-radius: 0 0 6px 6px;
+    padding: 15px;
+    margin: 0;
+    font-size: 14px;
+    background: #25303B;
+    color: white;
+    border-radius: 0 0 6px 6px;
 }
 section#timeline article:nth-child(2n+2) div.inner {
-  float: right;
+    float: right;
 }
 section#timeline article:nth-child(2n+2) div.inner h2:after {
-  left: -5px;
+    left: -5px;
 }
 section#timeline article:nth-child(1) div.inner h2 {
-  background: #25303B;
+    background: #25303B;
 }
 section#timeline article:nth-child(1) div.inner h2:after {
-  background: #25303B;
+    background: #25303B;
 }
 section#timeline article:nth-child(2) div.inner h2 {
-  background: #25303B;
+    background: #25303B;
 }
 section#timeline article:nth-child(2) div.inner h2:after {
-  background: #25303B;
+    background: #25303B;
 }
 section#timeline article:nth-child(3) div.inner h2 {
-  background: #25303B;
+    background: #25303B;
 }
 section#timeline article:nth-child(3) div.inner h2:after {
-  background: #25303B;
+    background: #25303B;
 }
 section#timeline article:nth-child(4) div.inner h2 {
-  background: #25303B;
+    background: #25303B;
 }
 section#timeline article:nth-child(4) div.inner h2:after {
-  background: #25303B;
+    background: #25303B;
 }
 section#timeline article:nth-child(5) div.inner h2 {
-  background: #25303B;
+    background: #25303B;
 }
 section#timeline article:nth-child(5) div.inner h2:after {
-  background: #25303B;
+    background: #25303B;
 }
 
 /* The actual timeline (the vertical ruler) */
- .timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* The actual timeline (the vertical ruler) */
- .timeline::after {
-  content: '';
-  position: absolute;
-  width: 6px;
-  background-color: #f8f9fa;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #f8f9fa;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
 }
 
 /* Container around content */
-  .cont {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
+.cont {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
 }
 
 /* The circles on the timeline */
-  .cont::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -13px;
-  background-color: #25303B;
-  border: 4px solid #712CA7;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
+.cont::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: #25303B;
+    border: 4px solid #712CA7;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
 }
 
 /* Place the container to the left */
- .left {
-  left: 0;
+.left {
+    left: 0;
 }
 
 /* Place the container to the right */
- .right {
-  left: 50%;
+.right {
+    left: 50%;
 }
 
 /* Add arrows to the left container (pointing right) */
- .left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid #25303B;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #25303B;
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #25303B;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #25303B;
 }
 
 /* Add arrows to the right container (pointing left) */
- .right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid #25303B;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #25303B transparent transparent;
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #25303B;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #25303B transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
- .right::after {
-  left: -13px;
+.right::after {
+    left: -13px;
 }
 
 /* The actual content */
 .content {
-  padding: 20px 30px;
-  color: white;
-  background-color: #25303B;
-  position: relative;
-  border-radius: 6px;
+    padding: 20px 30px;
+    color: white;
+    background-color: #25303B;
+    position: relative;
+    border-radius: 6px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-/* Place the timelime to the left */
-   .timeline::after {
-    left: 31px;
-  }
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
 
-/* Full-width containers */
-  .cont {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
+    /* Full-width containers */
+    .cont {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
 
-/* Make sure that all arrows are pointing leftwards */
-   .cont::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  }
+    /* Make sure that all arrows are pointing leftwards */
+    .cont::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
 
-/* Make sure all circles are at the same spot */
- .left::after, .right::after {
-    left: 19px;
-  }
+    /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+        left: 19px;
+    }
 
-/* Make all right containers behave like the left ones */
-   .right {
-    left: 0%;
-  }
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
 }
 
 #icon-background{
@@ -697,4 +697,8 @@ section#timeline article:nth-child(5) div.inner h2:after {
 html *
 {
     font-family: 'trebuchet MS';
+}
+#buttonHead:hover{
+    background-color: #6f42c1;
+    color: white;
 }
